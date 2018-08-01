@@ -1,0 +1,21 @@
+#设置端口和上下文名 http://localhost:8080/sell
+server:
+  port: 8080
+  servlet:
+    context-path: /sell
+#视图解析器设置前缀和后缀
+spring:
+  mvc:
+    view:
+      prefix: /WEB-INF/
+      suffix: .jsp
+logging:
+#  path: D:\
+  level:
+    com.products: error
+#设置Log配置文件的路径
+# config: D:\IDEA_work\TestSpringboot01\src\main\resources\config\logging-config.xml
+#设置静态视图文件
+#spring:
+#  thymeleaf:
+#    prefix: classpath:/templates/
