@@ -38,7 +38,7 @@ public class ProductsControllerTest {
 
     @Test
     public void testListProduct() throws Exception {
-        this.mockMvc.perform(get("/buyer/product/list").accept(MediaType.APPLICATION_JSON_UTF8))
+        this.mockMvc.perform(get("/buyer/user/list").accept(MediaType.APPLICATION_JSON_UTF8))
                 .andExpect(status().isOk())
                 .andDo(print());
     }

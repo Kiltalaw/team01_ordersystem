@@ -2,7 +2,7 @@
 server:
   port: 8080
   servlet:
-    context-path: /sell
+    context-path: /hsbc
 #视图解析器设置前缀和后缀
 spring:
   mvc:
